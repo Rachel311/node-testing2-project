@@ -3,7 +3,7 @@ const sharedConfig = {
     client: 'sqlite3',
     useNullAsDefault: true,
     migrations: {
-      directory: './data/migrations',
+      directory: './migrations',
     },
     seeds: {
       directory: './data/seeds',
